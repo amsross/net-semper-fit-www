@@ -1,5 +1,9 @@
 #[semper-fit.net](http://www.semper-fit.net)
 
+This is an oooooold WordPress build I wanted to convert to a static site.
+
+Don't judge me on the code.
+
 1. Install global dependencies
 	```
 	gem install jekyll && npm install -g grunt-cli
