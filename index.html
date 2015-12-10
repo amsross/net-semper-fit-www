@@ -1,0 +1,61 @@
+---
+layout: default
+title: Welcome
+---
+
+        <div id="left"></div>
+        <div id="center">
+          <div class="menuWrapper bg1" id="menuWrapper">
+            <ul id="acc" class="acc">
+              <li style="background-position: 0px 0px;" class="bg1">
+                <a href="/clients/" id="bg1">Passion</a>
+                <ul style="background-position: 0px 0px;" class="sub1">
+                  <li style="display: block;">For Fitness</li>
+                  <li style="display: block;">For Change</li>
+                  <li style="display: block;">For Improvement</li>
+                </ul>
+              </li>
+              <li style="background-position: -265px 0px;" class="bg1">
+                <a href="/services/" id="bg2">Perseverance</a>
+                <ul style="background-position: -265px 0px;" class="sub2">
+                  <li style="display: none;">Over Obstacles</li>
+                  <li style="display: none;">Over Limitations</li>
+                  <li style="display: none;">Over Adversity</li>
+                </ul>
+              </li>
+              <li style="background-position: -530px 0px;" class="last bg1">
+                <a href="/contact/" id="bg3">Communication</a>
+                <ul style="background-position: -265px 0px;" class="sub3">
+                  <li style="display: none;">With Individuals</li>
+                  <li style="display: none;">With The Body</li>
+                  <li style="display: none;">With The Mind</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <script type="text/javascript" src="/assets/js/jquery.bgpos.js"></script>
+        <script type="text/javascript" src="/assets/js/jpBGposNav.js"></script>							
+        <script type="text/javascript" src="/assets/js/jqModal.js"></script>
+        <script type="text/javascript" src="/assets/js/jqDnR.js"></script>
+        <script type="text/javascript" src="/assets/js/videoJqmn.js"></script>
+        <script type="text/javascript">
+          jQuery(document).ready(function(){
+            jQuery(window).scroll(function() {
+              jQuery('#jqmnVideo').animate({top:jQuery(window).scrollTop()+"px" },{queue: false, duration: 350});
+            });
+            jQuery('.jqmnVideoTrigger').click();
+          });
+        </script>
+        <a class="jqmnVideoTrigger" href="#">&nbsp;</a>
+        <div style="position: absolute; margin: -100px 0pt 0pt 200px; top: 75px;">
+          <div id="jqmnVideo" class="jqmNotice" style="display: block; z-index: 3000; opacity:1 !important;">
+            <div class="jqmnTitle jqDrag">
+              <h1>Boot Camps!</h1>
+            </div>
+            <a href="#" alt="close" class="jqmClose" ><em>Close</em></a>
+            <div class="jqmnContent">
+              <!-- degradable html5 audio and video plugin --><div class="video_wrap html5video"><video width="480" height="320" autoplay controls id="html5video-0" class="html5video"><source src="http://semper-fit.net/wp-content/uploads/2011/04/popupFinal-480px.mp4" type="video/mp4" /><source src="http://semper-fit.net/wp-content/uploads/2011/04/popupFinal-480px.ogg" type="video/ogg" /><object width="480" height="320" type="application/x-shockwave-flash" data="http://www.semper-fit.net/wp-content/plugins/degradable-html5-audio-and-video/incl/videoplayer.swf?file=http://semper-fit.net/wp-content/uploads/2011/04/popupFinal-480px.mp4" id="f-html5video-0"><param name="movie" value="http://www.semper-fit.net/wp-content/plugins/degradable-html5-audio-and-video/incl/videoplayer.swf?file=http://semper-fit.net/wp-content/uploads/2011/04/popupFinal-480px.mp4" /><p>Could not use HTML&nbsp;5 or <em>Flash</em> for playback. You can download the file as <a href="http://semper-fit.net/wp-content/uploads/2011/04/popupFinal-480px.mp4">MPEG4/H.264</a> or <a href="http://semper-fit.net/wp-content/uploads/2011/04/popupFinal-480px.ogg">Ogg Theora</a> file.</p></object></video></div>											<p>Join today!</p>
+            </div>
+          </div>
+        </div>

@@ -1,0 +1,39 @@
+---
+layout: default
+title: Contact
+---
+        <div id="left">
+          <style type="text/css" media="screen">
+            .CleanContact { text-align: left; width: 30em; display: block; border:0; padding-top: 1em; }
+            .CleanContact input[type="text"] { width: 50%; margin-bottom: .5em; }
+            .CleanContact label { color: black; font-size: 1.2em; clear: none; display: inline; text-align: left; }
+            .CleanContact textarea{ width: 50%; height: 15em; margin-bottom: .5em; font-size: 1.2em}
+            .CleanContact label em { font-weight: bold; font-style: normal; color: red; }
+            .CleanContact_msg { font-weight: bold;  padding: 1em; -moz-border-radius: 5px; -webkit-border-radius: 5px;  }
+            .CleanContact_msg.ok{ background-color: #8dff87; border: solid 1px #e6f4d7; color: #000; margin: 2em 0 2em 0;}
+            .CleanContact_msg.err{ background-color: #ff9595; border: solid 1px #fff; color: #000;}
+            #clean_contact{ background-color: rgba(255, 255, 255, 0.3); -moz-border-radius: 10px; -webkit-border-radius: 10px;}
+          </style>
+          <a name="clean_contact"></a>
+          <form method="post" action="#clean_contact" name="clean_contact" id="clean_contact" onsubmit="return clean_contact_validate(this)">
+            <input type="hidden" name="clean_contact_token" value="cc">
+            <fieldset class="CleanContact">
+              <label for="clean_contact_from_name" style="display: inline;">Your Name<em>*</em></label><br>
+              <input type="text" name="clean_contact_from_name" id="clean_contact_from_name" onchange="clean_contact_msg_clr()"><br>
+              <label for="clean_contact_from_email" style="display: inline;">Your E-mail Address<em>*</em></label><br>
+              <input type="text" name="clean_contact_from_email" id="clean_contact_from_email" onchange="clean_contact_msg_clr()"><br>
+              <label for="clean_contact_subject">Subject<em>*</em></label><br>
+              <input type="text" id="clean_contact_subject" name="clean_contact_subject" onchange="clean_contact_msg_clr()"><br>
+              <label for="clean_contact_body">Message<em>*</em></label><br>
+              <textarea id="clean_contact_body" name="clean_contact_body" onchange="clean_contact_msg_clr()"></textarea><br>
+              <div id="clean_contact_msg"></div>
+              <input type="Submit" id="clean_contact_send" value=" Send » ">
+            </fieldset>
+          </form>
+          <noscript>&lt;p class="CleanContact_msg err"&gt;Sorry, due to anti-spam measures, this contact form requires that javascript be enabled on your browser.&lt;/p&gt;</noscript>
+        </div>
+        <div id="right" class="rounded1111">
+          <h1>Ready to get started on a new <span class="you">you</span>? David knows where to start.</h1>
+          <p>The best way to reach David is still by picking up the old telephone and dialing him up at (609) 790 2447. You can get him most reasonable hours of the day, but if he doesn’t answer, he’s probably just with a client, so be sure to leave him a message.</p>
+          <p>If that method is just too out-dated for you, though, you can also drop him a line at <a href="mailto:david@semper-fit.net">david@semper-fit.net</a> any time of the day. You can also use the handy contact form to the left to accomplish the same thing. Just make sure you enter your correct name and email if you would like a response.</p>
+        </div>

@@ -1,0 +1,13 @@
+{
+  "name": "net-semper-fit-www",
+  "version": "0.0.1",
+  "authors": [
+    "Matt Ross"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.semper-fit.net/",
+  "private": true,
+  "dependencies": {
+    "jquery": "2.1.1"
+  }
+}
