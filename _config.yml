@@ -5,6 +5,7 @@ lsi: false
 # custom settings
 author: David Fulps
 author_email: david@semper-fit.net
+author_phone: (609) 790 2447
 description: The Trainer You've Been Looking For
 destination: ./_site
 exclude:
@@ -13,7 +14,7 @@ exclude:
   - node_modules
   - vendor
 keys:
-  #ga: UA-19251223-1
+  ga: UA-19251223-1
 name: www.semper-fit.net
 permalink: pretty
 source: .
