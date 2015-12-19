@@ -3,18 +3,17 @@ safe: true
 lsi: false
 
 # custom settings
-author: Matt Ross
-author_email: matt@mattross.io
-description: making web stuff
+author: David Fulps
+author_email: david@semper-fit.net
+description: The Trainer You've Been Looking For
 destination: ./_site
 exclude:
   - package.json
   - Gruntfile.js
   - node_modules
   - vendor
-hightlighter: pygments
 keys:
-  #ga: UA-19230806-1
+  #ga: UA-19251223-1
 name: www.semper-fit.net
 permalink: pretty
 source: .

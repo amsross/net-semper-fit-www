@@ -1,0 +1,54 @@
+---
+layout: default
+title: Clients
+---
+        <div id="right" class="pics slideshow clearfix" style="position: relative;">
+          <div>
+            <p><img src="/assets/img/clients/BeforeAfter_Jamie.png" alt="Jamie" title="Jamie"></p>
+            <blockquote><p>To say that Dave Fulps is a master at his profession would be an understatement. He understands the the mechanics of exercise and the process that your body needs to go through to reach your goals. It is Dave's passion and knowledge of his profession that put him at the top of his field. My favorite quote of Dave's is "Trust the Process" and it is Dave's process that yields results. My fitness level has skyrocketed beyond anything I ever could have imagined and for that I am forever grateful.</p></blockquote>
+          </div>
+          <div>
+            <p><img src="/assets/img/clients/BeforeAfter_001.png" alt="Doreen" title="Doreen"></p>
+            <blockquote><p>Doreen lost 30 pounds in 12 weeks thanks to her hard work and determination. Great job Doreen!</p></blockquote>
+          </div>
+          <div>
+            <p><img src="/assets/img/clients/BeforeAfter_April.gif" alt="April" title="April"></p>
+            <blockquote><p>I have been working out with Dave for one year, doing two Boot Camps every week. The workouts are always different and lots of fun. I've met some great people at Boot Camp. The customized meal plan is easy to follow and has lots of variety. I've lost weight and gained lean muscle. The results have been unbelievable. At forty-two, I have as much energy as when I was twenty. If you are serious about working towards better health and weight loss, I highly recommend his Boot Camps. My only regret is that I did not start sooner.</p></blockquote>
+          </div>
+          <div>
+            <p><img src="/assets/img/clients/BeforeAfter_Lori.gif" alt="Lori" title="Lori"></p>
+            <blockquote><p>My experience with Dave has taught me that you can do anything as long as you put your mind to it. Just look at the before and after pictures of me. They are proof that you can do it. This is the result of hard work and a great trainer. Dave, I can't thank you enough for all you have done for me. I don't think I could have gotten this far without you. When my friends say how great I look, I owe a lot of it to you. I am excited to continue to work with you to reach my final goal. I know I can do this and will!</p></blockquote>
+          </div>
+          <div>
+            <p><img src="/assets/img/clients/BeforeAfter_Kervin.gif" alt="Kervin" title="Kervin"></p>
+            <blockquote><p>When I began working with David, I knew that I neede someone who had "been there" to help me reach my goals. Two weeks in, David invited me to a Bodybuilding competition he was in which he SMASHED! I was  positive that he was who I was looking for, and months later, I was on stage taking part in my first competition. No matter what your fitness goal is, David can guide you directly there, and I want to impress on you that his knowledge is equal to his passion in the science of bodybuilding. He is truly an expert and a professional and will definitely guide you to your goals IF you follow his direction.</p></blockquote>
+          </div>
+          <div>
+            <p><img src="/assets/img/clients/BeforeAfter_Rebecca.gif" alt="Rebecca" title="Rebecca"></p>
+            <blockquote><p>After going to a Boot Camp Class for two months, I started personal training sessions with David and have seen significant different in my overall health and fitness. David has provided me with a diet and exercise program that has changed my life. Thanks to David, I am in better shape today at 49 than I was at 29.</p></blockquote>
+          </div>
+          <div>
+            <p><img src="/assets/img/clients/BeforeAfter_Casey.gif" alt="Casey" title="Casey"></p>
+            <blockquote><p>David started training me five months ago and the results have been unbelievable! My fitness level has increased, my weight has decreased and my quality of life has improved significantly. David makes working out something I look forward to doing. No session has ever been the same. He constantly challenges me and brings out my best. Most importantly, he provides the inspiration to keep me focused on my fitness goals. If only I had met David sooner!</p></blockquote>
+          </div>
+          <div>
+            <p><img src="/assets/img/clients/BeforeAfter_Dave.gif" alt="David" title="David"></p>
+            <blockquote><p>Before I met David, I felt my training had reached a plateau. In just a few months of training, however, I cut my 5k time by an entire minute! Competing at an endurance sport like running or cycling often means fighting through a great deal of physical pain as the muscles scream for more oxygen. I think more than anything else, Dave has taught me how to fight through that pain to accomplish big improvements in my performance. I've also benefitted greatly from Dave's nutritional expertise which is helping me get leaner and feel more energized. I strongly recommend Dave Fulps for any athlete training for running, cycling or swimming!</p></blockquote>
+          </div>
+        </div>
+        <script type="text/javascript">
+          jQuery(function() {
+            jQuery('.slideshow').before('<div id="left"><ul id="clientNav" class="clearfix">').cycle({
+              fx:     'fade',
+              speed:  10,
+              timeout: 0,
+              pager:  '#clientNav',
+              cleartypeNoBg: true,
+              pagerAnchorBuilder: function(idx, slide) {
+                var src = jQuery('img',slide).attr('src');
+                var alt = jQuery('img',slide).attr('alt');
+                return '<li><a href="#"><img alt="'+alt+'" src="'+src+'" width="75" height="75" /></a><p>'+alt+'</li>';
+              }
+            });
+          });
+        </script>
